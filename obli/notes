@@ -1,0 +1,66 @@
+HR -
+BLEND TREE FLOAT -> SYNCED INT FOR VRC
+REMOVE DEFAULT AND ADD LAYER FOR MULTIPLE TREES, WEIGHT 1
+0-90 / 91-255
+ANIM1-ANIM1 / ANIM2-ANIM2
+
+
+Mayu notes -
+==Eyes
+Remove scalera emission from mask
+Emi strength 0.5
+Light based World MinE .25 MaxE 1 MinL 0 MaxL 1
+
+Remove all audiolink
+Purple tongue decal + toggle
+Reduce blush decal opacity
+Tongue stretch 10
+
+Replace latex toggle 
+== Overall
+Tight blendshape
+_Matcap4Replace 1
+_MochieReflectionStrength 0.25
+_MochieRoughnessMultiplier 0.75
+_MochieSpecularStrength 1
+_EmissionAL0Enabled 0
+_Color #000000
+== Latex
+_GlitterBrightness 0
+_MochieReflectionTint #FFFFFF
+_MochieSpecularTint #FFFFFF
+== Glitter Toggle
+_GlitterBrightness 0.25
+_MochieReflectionTint #F9ACFF
+_MochieSpecularTint #F9ACFF
+== Glitter MAT
+- Matcap Color #965E98
+- Reflec/Spec
+Smoothness 0 default - ANIM BY TOGGLE
+Refle Tint any color default - ANIM BY TOGGLE
+Spec Tint same as above default - ANIM BY TOGGLE
+Refle Visi 0 default - ANIM BY TOGGLE
+Spec Visi 0 default - ANIM BY TOGGLE
+- Glitter FX
+Mode Angle
+Shape Circle
+Blend Add
+Glitter Color #69178E no base colors
+Density 500
+Glitter size 0.6
+Random position
+Min brightness 0
+Max brighness 0 default - ANIM BY TOGGLE
+Speed 0
+Angle range 43.4
+Bias 0.893
+Post contrast 826
+
+Tail Monitor
+UnityEditor.TransformWorldPlacementJSON:{"position":{"x":-0.0038000212516635658,"y":0.661432147026062,"z":-0.2587507367134094},"rotation":{"x":-0.5859025120735169,"y":3.1760050928715708e-16,"z":1.1546746360707044e-14,"w":0.8103815913200378},"scale":{"x":5.650000095367432,"y":5.054815292358398,"z":5.0}}
+Collar
+UnityEditor.TransformWorldPlacementJSON:{"position":{"x":0.0,"y":1.2043999433517457,"z":0.002300000051036477},"rotation":{"x":0.03865079581737518,"y":-0.0006470411317422986,"z":-0.002495979657396674,"w":0.9992494583129883},"scale":{"x":0.6899999976158142,"y":0.6899998188018799,"z":0.6900001168251038}}
+Hair
+UnityEditor.TransformWorldPlacementJSON:{"position":{"x":-0.027094855904579164,"y":1.389866590499878,"z":0.012262530624866486},"rotation":{"x":-0.08496420085430145,"y":-0.10922149568796158,"z":-0.004384331405162811,"w":0.990369975566864},"scale":{"x":0.75,"y":0.75,"z":0.75}}
+
+
